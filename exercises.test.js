@@ -42,7 +42,7 @@ test('Cyphering message with blank space', () => {
 })
 
 test('Analyze an array of numbers and give properties to an object', () => {
-  expect(analyze([1,8,3,4,2,6])).toBe({
+  expect(analyze(1,8,3,4,2,6)).toStrictEqual({
     average: 4,
     min: 1,
     max: 8,
